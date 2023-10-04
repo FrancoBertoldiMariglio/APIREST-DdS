@@ -35,3 +35,9 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+//jar {
+//	manifest {
+//		attributes("ApiRestApplication: um.edu.apiREST.ApiRestApplication")
+//	}
+//}
