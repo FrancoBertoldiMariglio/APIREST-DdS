@@ -4,11 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PaginadoApplication {
+public class paginacionApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PaginadoApplication.class, args);
+		SpringApplication.run(paginacionApplication.class, args);
 		System.out.println("Funcionando");
 	}
-
 }
